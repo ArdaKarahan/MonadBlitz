@@ -1,1 +1,18 @@
 @import "tailwindcss";
+:root {
+  --brand: oklch(84.1% 0.238 128.85);
+  --brand-hover: oklch(79.1% 0.238 128.85);
+
+}
+:root {
+  --brand: oklch(84.1% 0.238 128.85);       /* Register'daki yeşil */
+  --brand-hover: oklch(79.1% 0.238 128.85); /* hover için biraz koyu */
+}
+:root {
+  /* Tailwind emerald: 600 / 700 / 500 */
+  --brand: #059669;        /* bg-emerald-600 */
+  --brand-hover: #047857;  /* hover:bg-emerald-700 */
+  --brand-ring: #10B981;   /* ring-emerald-500 */
+}
+
+/* (Tailwind kullanıyorsan) dosyanın geri kalanında @tailwind base; components; utilities; olabilir */
